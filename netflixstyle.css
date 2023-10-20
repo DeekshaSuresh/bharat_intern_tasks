@@ -1,0 +1,81 @@
+body{
+    background: rgba(0,0,0,0.5) url(./images/netflix2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: auto;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    overflow-y:auto;
+    overflow-x: hidden;
+    
+}
+.logo img{
+    width: 500px;
+    margin-bottom: 0px;
+}
+.carousel{
+    z-index:1;
+    background-attachment: fixed;
+    margin-top: 0.2cm;
+    margin-bottom: 5cm;
+}
+.imgslide{
+    height: 550px;
+    width:100%;
+    object-fit: contain;
+
+
+}
+.navbar1{
+    background: rgba(0,0,0,0.7);
+    color:white;
+    
+}
+.fontcolor{
+    color:grey;
+    font-family: sans-serif;
+    
+}
+.moviecard{
+    display:flex;
+    flex-direction: row;
+    gap:0.5cm;
+    margin-bottom: 2cm;
+}
+.card{
+    background: rgba(0,0,0,0.7);
+    color:gray;
+}
+.imgcard{
+    min-height:240px;
+    min-width:240px;
+    object-fit: cover;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+.btn1:hover{
+    background-color: white;
+    color:red;
+}
+.footer{
+    background: rgba(0,0,0,0.7);
+    color:gray;
+}
+.footcontent{
+    display:flex;
+    flex-direction: row;
+    gap:1.5cm;
+    margin-top: 1cm;
+    font-weight: lighter;
+}
+.list{
+    list-style: none;
+}
+.beforefoot{
+    display: flex;
+    flex-direction: row;
+}
